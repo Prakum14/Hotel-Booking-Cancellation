@@ -8,6 +8,16 @@ steps:
   run: |
     python -m pip install --upgrade pip
     pip install -r requirements.txt # Make sure you have a requirements.txt file
+- name: Evaluate Model
+  run: |
+    # Assuming your main.py script can be run to perform evaluation
+    # You might need to adjust the command based on your main.py structure
+    # For example, if main.py has an evaluation function:
+    # python main.py --evaluate
+    # If you have a separate evaluation script:
+    # python evaluate_model.py
+    echo "Executing model evaluation here..."
+    # You might want to add steps to load your test data and model here if needed.
 - name: Run tests
   run: |
     # Replace the following line with your actual test command
@@ -15,4 +25,4 @@ steps:
     # python run_tests.py
     # If you are using pytest:
     # pytest
-    echo "Executing test commands here..."
+    echo "Executing other test commands here..."
