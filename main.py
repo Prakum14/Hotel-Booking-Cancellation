@@ -1,3 +1,5 @@
+#triggering ci/cd in actions
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
@@ -139,4 +141,5 @@ if __name__ == "__main__":
     print(f"Test Accuracy: {test_accuracy:.4f}")
 
     # You can add code here to save the trained model,
+
     # make predictions, or visualize results if needed.
