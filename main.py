@@ -113,7 +113,7 @@ def evaluate_model(model, X_test, y_test):
 
 if __name__ == "__main__":
     # Define the path to your dataset
-    dataset_path = '/content/hotel.csv' # Update this path if necessary
+    dataset_path = 'hotel.csv' # Update this path if necessary
 
     # Load data
     hotel_df = load_data(dataset_path)
